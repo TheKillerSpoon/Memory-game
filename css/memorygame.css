@@ -87,3 +87,19 @@ button {
   width: 100%;
   object-fit: cover;
 }
+
+
+.card.match::after {
+  opacity: 0;
+}
+
+.card.match {
+  background-color: green;
+  transition-delay: 1.5s;
+}
+
+.card.match img {
+  transition: all 1s ease-out;
+  transition-delay: 1.5s;
+  opacity: 0;
+}
