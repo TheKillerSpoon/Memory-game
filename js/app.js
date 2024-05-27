@@ -10,6 +10,7 @@ for(index = 0; index < cards.length; index++){
         pic = e.target;
       } else if(pic.childNodes[1].src === e.target.childNodes[1].src){
         e.target.classList.add("active");
+        
         pic.classList.add("match");
         e.target.classList.add("match");
         pic = 0;
